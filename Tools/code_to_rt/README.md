@@ -16,7 +16,7 @@ Written in `Python`.
 ## Example Command
 
 ```
-python main.py
+python3 main.py
 -p "../../prepared/example/src/main/java/Main.java"
 -o "exported/"
 -c "schema/color1.json"
@@ -70,12 +70,9 @@ With `rt` as a shortcut for `Rich Text`.
 
 <br/>
 
-## Unity Text Limits
+## Unity Text Mesh Limits
 
 #### Some Calculation
-
-File Commit Version:  
-https://github.com/S1r0hub/ConfigCrusher_data/commit/4db7662ca2b98f03622fc45fa6a2bb34885433a2  
 
 Limit (found on the Internet): 65535 vertices  
 -> Character Limit: 65535 / 4 = 16383 (around 16000) characters  
@@ -100,4 +97,4 @@ vertices (char * 4): 36248
 ## ToDo
 
 - [X] Export result to file
-- [X] Export whole program code (currently only one file)
+- [X] Export whole program code (not only one file)
