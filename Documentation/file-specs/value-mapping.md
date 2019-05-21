@@ -102,10 +102,7 @@ then 10 is 50% on the color scale which would result in half of the first and ha
 - `to`: second color on scale (r, g, b, a) - `float` values in range 0-1
 
 **Optional Attributes:**
-- None
-
-**Planned:**  
-- `steps`: affect smoothness of mapping curve - `int` in range 0-10
+- `steps`: affect smoothness of mapping curve / stepwise interpolation - `int` (0 = disabled)
 
 Note that the following **optional attributes were moved to general mapping**:  
 - `min`: set minimum NFP value (overwrites calculated one!)
