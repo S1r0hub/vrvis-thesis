@@ -358,7 +358,7 @@ It is required that the `name` of the mapping matches an edge name to work as de
 If the respective edge is not defined, this mapping will have no effect.  
 
 **Attributes:**
-- `color -> relative_to`: what the color should be relative to - `string` of either "none", direction", "value" or "region"
+- `color -> relative_to`: what the color should be relative to - `string` of either "none", direction" or "value"
 - `color -> method`: the color method to use (should be scale method if relative to value)
 - `steps`: points the edge consists of - `int` in range 2-100
 - `curve_strength`: strength of the bezier curve - `float` in range 0-1
