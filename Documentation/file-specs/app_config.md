@@ -25,7 +25,7 @@ Key | Type | Info
 ---- | ---- | ----
 software_system | JSON Object | configuration of the loaded system
 software_system.path | string | path where the system is located (if in same folder as this config, then use ".")
-software_system.root_folde | string | name of root folder (e.g. "src") in the path
+software_system.root_folder | string | name of root folder (e.g. "src") in the path
 software_system.max_folder_depth | int | maximum folder depth for recursive search
 software_system.ignore_files | string array | array of regex patterns to exclude files (e.g. ".*\\\\.html$")
 software_system.remove_extensions | string array | array of file extensions that should be removed (e.g. ".rt")
