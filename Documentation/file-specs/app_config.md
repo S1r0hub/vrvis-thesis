@@ -29,7 +29,7 @@ software_system.root_folder | string | name of root folder (e.g. "src") in the p
 software_system.max_folder_depth | int | maximum folder depth for recursive search
 software_system.ignore_files | string array | array of regex patterns to exclude files (e.g. ".*\\\\.html$")
 software_system.remove_extensions | string array | array of file extensions that should be removed (e.g. ".rt")
-features | string array | list of features that will be considered in this order
+features | string array | list of features that will be considered in this order for the performance-influence model
 
 **Why "remove_extensions"?**  
 As syntax highlighted files look like "Main.java.rt",
